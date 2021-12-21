@@ -1,0 +1,72 @@
+h1, p {
+  font-family: Lato;
+}
+button{
+  background-color: red;
+  width: 50%;
+  height: 40px;
+  color: white;
+  font-size: large;
+  border: none;
+}
+
+body{
+  background-color: antiquewhite;
+}
+#Listing{
+  text-align: center;
+  margin-left: 0ch;
+  align-items: center;
+  
+}
+#list{
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+ul li{
+  display: inline;
+  margin-left: ch;
+  padding-right: 2ch;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  margin-left:2ch;
+  
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+#data{
+  text-align: center;
+  display:inline-flex;
+  align-items: center;
+}
+.datepicker-input {
+  left: 0;
+  top: 0;
+  width: 70%;
+  height:20px;
+  opacity: 1;
+  color:black;
+  cursor: pointer;
+  box-sizing: border-box;
+  
+}
+.datepicker-input::-webkit-calendar-picker-indicator {
+ 
+  left: 0;
+  top: 0;
+  padding: 0;
+  cursor: pointer;
+}
